@@ -1,10 +1,10 @@
-## #About this Project: "My Next Blog"
+# About this Project: "My Next Blog"
 
 ![MyBlog](images.jpeg)
 
 This project provides practice for all of the things learned throughout the course, giving a thorough understanding of how Next.js works, its core features, when to use which feature, and how to wire everything up.
 
-###Page:
+### Page:
 
 - Posts page
 - Starting page
