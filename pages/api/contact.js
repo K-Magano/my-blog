@@ -29,7 +29,7 @@ async function handler(req, res) {
 
     try {
       client = await MongoClient.connect(
-        "mongodb+srv://Keorapetse:URrF1wL0qlk1pZ0x@cluster0.mgsfrhf.mongodb.net/?retryWrites=true&w=majority"
+        "mongodb+srv://Keorapetse:MgTYsZXSt3ngD6wU@cluster0.mgsfrhf.mongodb.net/messages?retryWrites=true&w=majority"
       );
     } catch (error) {
       res.status(500).json({ message: "Could not connect to database" });
