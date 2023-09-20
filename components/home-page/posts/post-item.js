@@ -3,6 +3,8 @@ import classes from "@/components/home-page/posts/post-item.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
+//!POSTS ON THE LANDING PAGE and Posts page/
+
 function PostItem(props) {
   const { title, image, excerpt, date, slug } = props.post;
   const formattedDate = new Date(date).toLocaleDateString("en-Us", {
@@ -11,7 +13,7 @@ function PostItem(props) {
     year: "numeric",
   });
 
-  const imagePath = `/images/posts${slug}/${image}`;
+  const imagePath = `/images/posts/${slug}/${image}`;
   const linkPath = `/posts/${slug}`;
 
   return (

@@ -11,9 +11,9 @@ function Hero() {
           width={250}
           height={250}
         />
-        <h1>Hi, I'm Keo</h1>
-        <p>I think about the future of tech a lot!</p>
       </div>
+      <h1>Hi, I'm Keo</h1>
+      <p>I think about the future of tech a lot!</p>
     </section>
   );
 }
