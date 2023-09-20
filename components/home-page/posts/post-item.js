@@ -24,7 +24,7 @@ function PostItem(props) {
             src={imagePath}
             alt={title}
             width={300}
-            height={200}
+            height={250}
             layout="responsive"
           />
         </div>

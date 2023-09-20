@@ -1,21 +1,27 @@
 .post {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  background-color: var(--color-grey-800);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+  background-color: var(--color-yellow-50);
   text-align: center;
+  border-radius: 9px;
 }
 
 .post a {
-  color: var(--color-grey-100);
+  color: var(--color-dark-50);
 }
 
 .image {
+  position: relative;
   width: 100%;
   max-height: 20rem;
+  /* aspect-ratio: 70/45;
+  margin: 2rem auto; */
   overflow: hidden;
+  border-radius: 9px;
 }
 
 .image img {
   object-fit: cover;
+  border-radius: 9px;
 }
 
 .content {
