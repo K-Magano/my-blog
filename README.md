@@ -1,19 +1,11 @@
-# About this Project: "My Next Blog"
+# About this Project: "My Blog"
 
 ![MyBlog](images.jpeg)
 
-This project provides practice for all of the things learned throughout the course, giving a thorough understanding of how Next.js works, its core features, when to use which feature, and how to wire everything up.
+This project provides practice Next.js, its core features when to use which feature, and how to wire everything up.
 
-### Page:
-
-- Posts page
-- Starting page
-- Featured posts
-- All posts page
-- Single post pages where we show code snippets and render images
-- Contact form with notification at bottom.
-- The entire back end using Mongodb
-- Posts stored as Markdown files and parsed with custom code
+- Page routing
+- Mongodb
 - Data from Markdown files and API route for contact form
 - Database to store submitted messages.
 
