@@ -13,7 +13,7 @@ function Hero() {
         />
       </div>
       <h1>Hi, I'm Keo</h1>
-      <p>I think about the future of tech a lot!</p>
+      <p>I am a Software engineer with an interest in front-end development</p>
     </section>
   );
 }
